@@ -728,18 +728,6 @@
   --container-padding-desktop: 32px;
   --container-max-width-desktop: 1280px;
   --approach-2-container-max-width: 1280px;
-  --width-xxs: 320px;
-  --width-xs: 384px;
-  --width-sm: 480px;
-  --width-md: 560px;
-  --width-lg: 640px;
-  --width-xl: 768px;
-  --width-2xl: 1024px;
-  --width-3xl: 1280px;
-  --width-4xl: 1440px;
-  --width-5xl: 1600px;
-  --width-6xl: 1920px;
-  --paragraph-max-width: 720px;
   --spacing-none: 0px;
   --spacing-xxs: 2px;
   --spacing-xs: 4px;
@@ -804,4 +792,16 @@
   --line-height-display-lg: 60px;
   --line-height-display-xl: 72px;
   --line-height-display-2xl: 90px;
+  --width-xxs: 320px;
+  --width-xs: 384px;
+  --width-sm: 480px;
+  --width-md: 560px;
+  --width-lg: 640px;
+  --width-xl: 768px;
+  --width-2xl: 1024px;
+  --width-3xl: 1280px;
+  --width-4xl: 1440px;
+  --width-5xl: 1600px;
+  --width-6xl: 1920px;
+  --paragraph-max-width: 720px;
 }
