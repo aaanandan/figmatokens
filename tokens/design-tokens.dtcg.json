@@ -3195,6 +3195,54 @@
       }
     }
   },
+  "width-xxs": {
+    "$value": "{Spacing.80.(320px)}",
+    "$type": "number"
+  },
+  "width-xs": {
+    "$value": "{Spacing.96.(384px)}",
+    "$type": "number"
+  },
+  "width-sm": {
+    "$value": "{Spacing.120.(480px)}",
+    "$type": "number"
+  },
+  "width-md": {
+    "$value": "{Spacing.140.(560px)}",
+    "$type": "number"
+  },
+  "width-lg": {
+    "$value": "{Spacing.160.(640px)}",
+    "$type": "number"
+  },
+  "width-xl": {
+    "$value": "{Spacing.192.(768px)}",
+    "$type": "number"
+  },
+  "width-2xl": {
+    "$value": "{Spacing.256.(1,024px)}",
+    "$type": "number"
+  },
+  "width-3xl": {
+    "$value": "{Spacing.320.(1,280px)}",
+    "$type": "number"
+  },
+  "width-4xl": {
+    "$value": "{Spacing.360.(1,440px)}",
+    "$type": "number"
+  },
+  "width-5xl": {
+    "$value": "{Spacing.400.(1,600px)}",
+    "$type": "number"
+  },
+  "width-6xl": {
+    "$value": "{Spacing.480.(1,920px)}",
+    "$type": "number"
+  },
+  "paragraph-max-width": {
+    "$value": "{Spacing.180.(720px)}",
+    "$type": "number"
+  },
   "spacing-none": {
     "$value": "{Spacing.0.(0px)}",
     "$type": "number"
@@ -3262,6 +3310,50 @@
   "spacing-11xl": {
     "$value": "{Spacing.40.(160px)}",
     "$type": "number"
+  },
+  "radius-none": {
+    "$type": "number",
+    "$value": 0
+  },
+  "radius-xxs": {
+    "$type": "number",
+    "$value": 2
+  },
+  "radius-xs": {
+    "$type": "number",
+    "$value": 4
+  },
+  "radius-sm": {
+    "$type": "number",
+    "$value": 6
+  },
+  "radius-md": {
+    "$type": "number",
+    "$value": 8
+  },
+  "radius-lg": {
+    "$type": "number",
+    "$value": 10
+  },
+  "radius-xl": {
+    "$type": "number",
+    "$value": 12
+  },
+  "radius-2xl": {
+    "$type": "number",
+    "$value": 16
+  },
+  "radius-3xl": {
+    "$type": "number",
+    "$value": 20
+  },
+  "radius-4xl": {
+    "$type": "number",
+    "$value": 24
+  },
+  "radius-full": {
+    "$type": "number",
+    "$value": 9999
   },
   "Font": {
     "family": {
@@ -3418,97 +3510,5 @@
         "$value": "90px"
       }
     }
-  },
-  "radius-none": {
-    "$type": "number",
-    "$value": 0
-  },
-  "radius-xxs": {
-    "$type": "number",
-    "$value": 2
-  },
-  "radius-xs": {
-    "$type": "number",
-    "$value": 4
-  },
-  "radius-sm": {
-    "$type": "number",
-    "$value": 6
-  },
-  "radius-md": {
-    "$type": "number",
-    "$value": 8
-  },
-  "radius-lg": {
-    "$type": "number",
-    "$value": 10
-  },
-  "radius-xl": {
-    "$type": "number",
-    "$value": 12
-  },
-  "radius-2xl": {
-    "$type": "number",
-    "$value": 16
-  },
-  "radius-3xl": {
-    "$type": "number",
-    "$value": 20
-  },
-  "radius-4xl": {
-    "$type": "number",
-    "$value": 24
-  },
-  "radius-full": {
-    "$type": "number",
-    "$value": 9999
-  },
-  "width-xxs": {
-    "$value": "{Spacing.80.(320px)}",
-    "$type": "number"
-  },
-  "width-xs": {
-    "$value": "{Spacing.96.(384px)}",
-    "$type": "number"
-  },
-  "width-sm": {
-    "$value": "{Spacing.120.(480px)}",
-    "$type": "number"
-  },
-  "width-md": {
-    "$value": "{Spacing.140.(560px)}",
-    "$type": "number"
-  },
-  "width-lg": {
-    "$value": "{Spacing.160.(640px)}",
-    "$type": "number"
-  },
-  "width-xl": {
-    "$value": "{Spacing.192.(768px)}",
-    "$type": "number"
-  },
-  "width-2xl": {
-    "$value": "{Spacing.256.(1,024px)}",
-    "$type": "number"
-  },
-  "width-3xl": {
-    "$value": "{Spacing.320.(1,280px)}",
-    "$type": "number"
-  },
-  "width-4xl": {
-    "$value": "{Spacing.360.(1,440px)}",
-    "$type": "number"
-  },
-  "width-5xl": {
-    "$value": "{Spacing.400.(1,600px)}",
-    "$type": "number"
-  },
-  "width-6xl": {
-    "$value": "{Spacing.480.(1,920px)}",
-    "$type": "number"
-  },
-  "paragraph-max-width": {
-    "$value": "{Spacing.180.(720px)}",
-    "$type": "number"
   }
 }

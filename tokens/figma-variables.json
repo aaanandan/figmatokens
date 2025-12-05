@@ -783,6 +783,35 @@
           "VariableID:6297:30289"
         ]
       },
+      "VariableCollectionId:6298:45304": {
+        "defaultModeId": "6298:1",
+        "id": "VariableCollectionId:6298:45304",
+        "name": "4. Widths",
+        "remote": false,
+        "modes": [
+          {
+            "modeId": "6298:1",
+            "name": "Mode 1"
+          }
+        ],
+        "key": "0f9fbc1dc3cf49f79b00943496c979bdd1f303c0",
+        "hiddenFromPublishing": false,
+        "isExtension": false,
+        "variableIds": [
+          "VariableID:6298:45305",
+          "VariableID:6425:334080",
+          "VariableID:6298:45308",
+          "VariableID:6363:125205",
+          "VariableID:6298:45309",
+          "VariableID:6298:45310",
+          "VariableID:6298:45311",
+          "VariableID:6298:45312",
+          "VariableID:6298:45313",
+          "VariableID:6298:45314",
+          "VariableID:6298:45315",
+          "VariableID:6379:57496"
+        ]
+      },
       "VariableCollectionId:6298:45383": {
         "defaultModeId": "6298:2",
         "id": "VariableCollectionId:6298:45383",
@@ -815,6 +844,34 @@
           "VariableID:6298:45397",
           "VariableID:6298:45398",
           "VariableID:6298:45399"
+        ]
+      },
+      "VariableCollectionId:6298:46388": {
+        "defaultModeId": "6298:3",
+        "id": "VariableCollectionId:6298:46388",
+        "name": "2. Radius",
+        "remote": false,
+        "modes": [
+          {
+            "modeId": "6298:3",
+            "name": "Mode 1"
+          }
+        ],
+        "key": "fac5fc89490a41d47e9310a1b9f3db643fc1cfea",
+        "hiddenFromPublishing": false,
+        "isExtension": false,
+        "variableIds": [
+          "VariableID:6298:46475",
+          "VariableID:6298:46476",
+          "VariableID:6298:46477",
+          "VariableID:6298:46478",
+          "VariableID:6298:46479",
+          "VariableID:6300:24234",
+          "VariableID:6298:46480",
+          "VariableID:6298:46481",
+          "VariableID:6306:268582",
+          "VariableID:6298:46482",
+          "VariableID:6298:46485"
         ]
       },
       "VariableCollectionId:7403:16248": {
@@ -870,34 +927,6 @@
           "VariableID:7407:110373"
         ]
       },
-      "VariableCollectionId:6298:46388": {
-        "defaultModeId": "6298:3",
-        "id": "VariableCollectionId:6298:46388",
-        "name": "2. Radius",
-        "remote": false,
-        "modes": [
-          {
-            "modeId": "6298:3",
-            "name": "Mode 1"
-          }
-        ],
-        "key": "fac5fc89490a41d47e9310a1b9f3db643fc1cfea",
-        "hiddenFromPublishing": false,
-        "isExtension": false,
-        "variableIds": [
-          "VariableID:6298:46475",
-          "VariableID:6298:46476",
-          "VariableID:6298:46477",
-          "VariableID:6298:46478",
-          "VariableID:6298:46479",
-          "VariableID:6300:24234",
-          "VariableID:6298:46480",
-          "VariableID:6298:46481",
-          "VariableID:6306:268582",
-          "VariableID:6298:46482",
-          "VariableID:6298:46485"
-        ]
-      },
       "VariableCollectionId:51679dd26681629995b4b0552575a9283f51877d/8790:935": {
         "defaultModeId": "5256:0",
         "id": "VariableCollectionId:51679dd26681629995b4b0552575a9283f51877d/8790:935",
@@ -918,35 +947,6 @@
         "isExtension": false,
         "variableIds": [
           "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913"
-        ]
-      },
-      "VariableCollectionId:6298:45304": {
-        "defaultModeId": "6298:1",
-        "id": "VariableCollectionId:6298:45304",
-        "name": "4. Widths",
-        "remote": false,
-        "modes": [
-          {
-            "modeId": "6298:1",
-            "name": "Mode 1"
-          }
-        ],
-        "key": "0f9fbc1dc3cf49f79b00943496c979bdd1f303c0",
-        "hiddenFromPublishing": false,
-        "isExtension": false,
-        "variableIds": [
-          "VariableID:6298:45305",
-          "VariableID:6425:334080",
-          "VariableID:6298:45308",
-          "VariableID:6363:125205",
-          "VariableID:6298:45309",
-          "VariableID:6298:45310",
-          "VariableID:6298:45311",
-          "VariableID:6298:45312",
-          "VariableID:6298:45313",
-          "VariableID:6298:45314",
-          "VariableID:6298:45315",
-          "VariableID:6379:57496"
         ]
       }
     },
@@ -17682,6 +17682,246 @@
         "codeSyntax": {},
         "deletedButReferenced": true
       },
+      "VariableID:6298:45305": {
+        "name": "width-xxs",
+        "id": "VariableID:6298:45305",
+        "remote": false,
+        "key": "07d6899b6096d592baed987379f57514e1ee7578",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372475"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6425:334080": {
+        "name": "width-xs",
+        "id": "VariableID:6425:334080",
+        "remote": false,
+        "key": "412d000f9a3390552695d75e8a8d65da5f45b87c",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5253:372218"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:45308": {
+        "name": "width-sm",
+        "id": "VariableID:6298:45308",
+        "remote": false,
+        "key": "24f203d6742eb8612a4a9bc705241389a728a338",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372476"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6363:125205": {
+        "name": "width-md",
+        "id": "VariableID:6363:125205",
+        "remote": false,
+        "key": "64c9dbdd796ccde28e095441a950ea312e90cfba",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6363:125204"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:45309": {
+        "name": "width-lg",
+        "id": "VariableID:6298:45309",
+        "remote": false,
+        "key": "4fb1db8c14928e3922e2f920d652158e03f16e41",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372477"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:45310": {
+        "name": "width-xl",
+        "id": "VariableID:6298:45310",
+        "remote": false,
+        "key": "f2aa9aa22ce8faf3d980dc9507d34205882852d8",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372478"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:45311": {
+        "name": "width-2xl",
+        "id": "VariableID:6298:45311",
+        "remote": false,
+        "key": "e2e65c05d3953c2f6b057614997193e12e16a1c2",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372479"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:45312": {
+        "name": "width-3xl",
+        "id": "VariableID:6298:45312",
+        "remote": false,
+        "key": "fd8d36531d6e91c90de37da2d4c1fcbf2819cf8c",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372480"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:45313": {
+        "name": "width-4xl",
+        "id": "VariableID:6298:45313",
+        "remote": false,
+        "key": "413a2a300fac3ab733bf6236829b876ea910a101",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372481"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:45314": {
+        "name": "width-5xl",
+        "id": "VariableID:6298:45314",
+        "remote": false,
+        "key": "109b2c07b61734f5725ac0fddc4566610ec1026f",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372482"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:45315": {
+        "name": "width-6xl",
+        "id": "VariableID:6298:45315",
+        "remote": false,
+        "key": "3d10d684f74cc6d32d8affd1e1f78dc8fb9a34a3",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:5257:372483"
+          }
+        },
+        "scopes": [
+          "WIDTH_HEIGHT"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6379:57496": {
+        "name": "paragraph-max-width",
+        "id": "VariableID:6379:57496",
+        "remote": false,
+        "key": "a54577e2ee3d73a742efbd4a6f06f0e5eba820f3",
+        "variableCollectionId": "VariableCollectionId:6298:45304",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:1": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6379:57497"
+          }
+        },
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      },
       "VariableID:6298:45384": {
         "name": "spacing-none",
         "id": "VariableID:6298:45384",
@@ -18019,6 +18259,193 @@
         },
         "scopes": [
           "GAP"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46475": {
+        "name": "radius-none",
+        "id": "VariableID:6298:46475",
+        "remote": false,
+        "key": "c54abd79049b34a76747df43acb91fef9884ea94",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 0
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46476": {
+        "name": "radius-xxs",
+        "id": "VariableID:6298:46476",
+        "remote": false,
+        "key": "390e40a3201adf417c7238cdca6da7c4ba057690",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 2
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46477": {
+        "name": "radius-xs",
+        "id": "VariableID:6298:46477",
+        "remote": false,
+        "key": "3833fa664ae568f124e9a58c176a24a71db0e9cd",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 4
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46478": {
+        "name": "radius-sm",
+        "id": "VariableID:6298:46478",
+        "remote": false,
+        "key": "36e30b5d1598fcbf992508383857862494faa79f",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 6
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46479": {
+        "name": "radius-md",
+        "id": "VariableID:6298:46479",
+        "remote": false,
+        "key": "9cc2cb9d9a9557304af7335eeb32eeee571fecda",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 8
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6300:24234": {
+        "name": "radius-lg",
+        "id": "VariableID:6300:24234",
+        "remote": false,
+        "key": "aa5b333254074d741fe2d0902c07335a9d21c967",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 10
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46480": {
+        "name": "radius-xl",
+        "id": "VariableID:6298:46480",
+        "remote": false,
+        "key": "147a0559893960f031d8bc9801e7681b88d14af1",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 12
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46481": {
+        "name": "radius-2xl",
+        "id": "VariableID:6298:46481",
+        "remote": false,
+        "key": "2221841c2b260539d0ef22ec7d9f0674d2d5f717",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 16
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6306:268582": {
+        "name": "radius-3xl",
+        "id": "VariableID:6306:268582",
+        "remote": false,
+        "key": "b81cb84189f4e3f9269600f5ec81735c4feb3f53",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 20
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46482": {
+        "name": "radius-4xl",
+        "id": "VariableID:6298:46482",
+        "remote": false,
+        "key": "759818d5d66041961410e63e06e3fbc7d85c983e",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 24
+        },
+        "scopes": [
+          "CORNER_RADIUS"
+        ],
+        "codeSyntax": {}
+      },
+      "VariableID:6298:46485": {
+        "name": "radius-full",
+        "id": "VariableID:6298:46485",
+        "remote": false,
+        "key": "64c21e923abd4b6338aabca5146d7a9e1af1c54c",
+        "variableCollectionId": "VariableCollectionId:6298:46388",
+        "resolvedType": "FLOAT",
+        "description": "",
+        "hiddenFromPublishing": false,
+        "valuesByMode": {
+          "6298:3": 9999
+        },
+        "scopes": [
+          "CORNER_RADIUS"
         ],
         "codeSyntax": {}
       },
@@ -18636,193 +19063,6 @@
         ],
         "codeSyntax": {}
       },
-      "VariableID:6298:46475": {
-        "name": "radius-none",
-        "id": "VariableID:6298:46475",
-        "remote": false,
-        "key": "c54abd79049b34a76747df43acb91fef9884ea94",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 0
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:46476": {
-        "name": "radius-xxs",
-        "id": "VariableID:6298:46476",
-        "remote": false,
-        "key": "390e40a3201adf417c7238cdca6da7c4ba057690",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 2
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:46477": {
-        "name": "radius-xs",
-        "id": "VariableID:6298:46477",
-        "remote": false,
-        "key": "3833fa664ae568f124e9a58c176a24a71db0e9cd",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 4
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:46478": {
-        "name": "radius-sm",
-        "id": "VariableID:6298:46478",
-        "remote": false,
-        "key": "36e30b5d1598fcbf992508383857862494faa79f",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 6
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:46479": {
-        "name": "radius-md",
-        "id": "VariableID:6298:46479",
-        "remote": false,
-        "key": "9cc2cb9d9a9557304af7335eeb32eeee571fecda",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 8
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6300:24234": {
-        "name": "radius-lg",
-        "id": "VariableID:6300:24234",
-        "remote": false,
-        "key": "aa5b333254074d741fe2d0902c07335a9d21c967",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 10
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:46480": {
-        "name": "radius-xl",
-        "id": "VariableID:6298:46480",
-        "remote": false,
-        "key": "147a0559893960f031d8bc9801e7681b88d14af1",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 12
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:46481": {
-        "name": "radius-2xl",
-        "id": "VariableID:6298:46481",
-        "remote": false,
-        "key": "2221841c2b260539d0ef22ec7d9f0674d2d5f717",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 16
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6306:268582": {
-        "name": "radius-3xl",
-        "id": "VariableID:6306:268582",
-        "remote": false,
-        "key": "b81cb84189f4e3f9269600f5ec81735c4feb3f53",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 20
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:46482": {
-        "name": "radius-4xl",
-        "id": "VariableID:6298:46482",
-        "remote": false,
-        "key": "759818d5d66041961410e63e06e3fbc7d85c983e",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 24
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:46485": {
-        "name": "radius-full",
-        "id": "VariableID:6298:46485",
-        "remote": false,
-        "key": "64c21e923abd4b6338aabca5146d7a9e1af1c54c",
-        "variableCollectionId": "VariableCollectionId:6298:46388",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:3": 9999
-        },
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "codeSyntax": {}
-      },
       "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913": {
         "name": "Colors/Effects/Shadows/shadow-xs",
         "id": "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913",
@@ -18846,246 +19086,6 @@
         },
         "scopes": [
           "EFFECT_COLOR"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45305": {
-        "name": "width-xxs",
-        "id": "VariableID:6298:45305",
-        "remote": false,
-        "key": "07d6899b6096d592baed987379f57514e1ee7578",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372475"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6425:334080": {
-        "name": "width-xs",
-        "id": "VariableID:6425:334080",
-        "remote": false,
-        "key": "412d000f9a3390552695d75e8a8d65da5f45b87c",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5253:372218"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45308": {
-        "name": "width-sm",
-        "id": "VariableID:6298:45308",
-        "remote": false,
-        "key": "24f203d6742eb8612a4a9bc705241389a728a338",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372476"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6363:125205": {
-        "name": "width-md",
-        "id": "VariableID:6363:125205",
-        "remote": false,
-        "key": "64c9dbdd796ccde28e095441a950ea312e90cfba",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:6363:125204"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45309": {
-        "name": "width-lg",
-        "id": "VariableID:6298:45309",
-        "remote": false,
-        "key": "4fb1db8c14928e3922e2f920d652158e03f16e41",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372477"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45310": {
-        "name": "width-xl",
-        "id": "VariableID:6298:45310",
-        "remote": false,
-        "key": "f2aa9aa22ce8faf3d980dc9507d34205882852d8",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372478"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45311": {
-        "name": "width-2xl",
-        "id": "VariableID:6298:45311",
-        "remote": false,
-        "key": "e2e65c05d3953c2f6b057614997193e12e16a1c2",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372479"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45312": {
-        "name": "width-3xl",
-        "id": "VariableID:6298:45312",
-        "remote": false,
-        "key": "fd8d36531d6e91c90de37da2d4c1fcbf2819cf8c",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372480"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45313": {
-        "name": "width-4xl",
-        "id": "VariableID:6298:45313",
-        "remote": false,
-        "key": "413a2a300fac3ab733bf6236829b876ea910a101",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372481"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45314": {
-        "name": "width-5xl",
-        "id": "VariableID:6298:45314",
-        "remote": false,
-        "key": "109b2c07b61734f5725ac0fddc4566610ec1026f",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372482"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6298:45315": {
-        "name": "width-6xl",
-        "id": "VariableID:6298:45315",
-        "remote": false,
-        "key": "3d10d684f74cc6d32d8affd1e1f78dc8fb9a34a3",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:5257:372483"
-          }
-        },
-        "scopes": [
-          "WIDTH_HEIGHT"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:6379:57496": {
-        "name": "paragraph-max-width",
-        "id": "VariableID:6379:57496",
-        "remote": false,
-        "key": "a54577e2ee3d73a742efbd4a6f06f0e5eba820f3",
-        "variableCollectionId": "VariableCollectionId:6298:45304",
-        "resolvedType": "FLOAT",
-        "description": "",
-        "hiddenFromPublishing": false,
-        "valuesByMode": {
-          "6298:1": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:6379:57497"
-          }
-        },
-        "scopes": [
-          "ALL_SCOPES"
         ],
         "codeSyntax": {}
       }
