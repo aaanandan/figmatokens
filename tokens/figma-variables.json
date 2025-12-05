@@ -783,6 +783,28 @@
           "VariableID:6297:30289"
         ]
       },
+      "VariableCollectionId:51679dd26681629995b4b0552575a9283f51877d/8790:935": {
+        "defaultModeId": "5256:0",
+        "id": "VariableCollectionId:51679dd26681629995b4b0552575a9283f51877d/8790:935",
+        "name": "1. Color modes",
+        "remote": true,
+        "modes": [
+          {
+            "modeId": "5256:0",
+            "name": "Light mode"
+          },
+          {
+            "modeId": "5353:0",
+            "name": "Dark mode"
+          }
+        ],
+        "key": "51679dd26681629995b4b0552575a9283f51877d",
+        "hiddenFromPublishing": true,
+        "isExtension": false,
+        "variableIds": [
+          "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913"
+        ]
+      },
       "VariableCollectionId:6298:45304": {
         "defaultModeId": "6298:1",
         "id": "VariableCollectionId:6298:45304",
@@ -925,28 +947,6 @@
           "VariableID:7407:110371",
           "VariableID:7407:110372",
           "VariableID:7407:110373"
-        ]
-      },
-      "VariableCollectionId:51679dd26681629995b4b0552575a9283f51877d/8790:935": {
-        "defaultModeId": "5256:0",
-        "id": "VariableCollectionId:51679dd26681629995b4b0552575a9283f51877d/8790:935",
-        "name": "1. Color modes",
-        "remote": true,
-        "modes": [
-          {
-            "modeId": "5256:0",
-            "name": "Light mode"
-          },
-          {
-            "modeId": "5353:0",
-            "name": "Dark mode"
-          }
-        ],
-        "key": "51679dd26681629995b4b0552575a9283f51877d",
-        "hiddenFromPublishing": true,
-        "isExtension": false,
-        "variableIds": [
-          "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913"
         ]
       }
     },
@@ -17682,6 +17682,32 @@
         "codeSyntax": {},
         "deletedButReferenced": true
       },
+      "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913": {
+        "name": "Colors/Effects/Shadows/shadow-xs",
+        "id": "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913",
+        "remote": true,
+        "key": "d6c981dc730ea47268ad3da49273565c62403035",
+        "variableCollectionId": "VariableCollectionId:51679dd26681629995b4b0552575a9283f51877d/8790:935",
+        "resolvedType": "COLOR",
+        "description": "",
+        "hiddenFromPublishing": true,
+        "valuesByMode": {
+          "5256:0": {
+            "r": 0.03921568766236305,
+            "g": 0.04967320337891579,
+            "b": 0.07058823853731155,
+            "a": 0.05000000074505806
+          },
+          "5353:0": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8f6290dfb47a12d0a80a2f0e0682a20e8134bde6/6283:2661"
+          }
+        },
+        "scopes": [
+          "EFFECT_COLOR"
+        ],
+        "codeSyntax": {}
+      },
       "VariableID:6298:45305": {
         "name": "width-xxs",
         "id": "VariableID:6298:45305",
@@ -19060,32 +19086,6 @@
         },
         "scopes": [
           "FONT_SIZE"
-        ],
-        "codeSyntax": {}
-      },
-      "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913": {
-        "name": "Colors/Effects/Shadows/shadow-xs",
-        "id": "VariableID:d6c981dc730ea47268ad3da49273565c62403035/8790:913",
-        "remote": true,
-        "key": "d6c981dc730ea47268ad3da49273565c62403035",
-        "variableCollectionId": "VariableCollectionId:51679dd26681629995b4b0552575a9283f51877d/8790:935",
-        "resolvedType": "COLOR",
-        "description": "",
-        "hiddenFromPublishing": true,
-        "valuesByMode": {
-          "5256:0": {
-            "r": 0.03921568766236305,
-            "g": 0.04967320337891579,
-            "b": 0.07058823853731155,
-            "a": 0.05000000074505806
-          },
-          "5353:0": {
-            "type": "VARIABLE_ALIAS",
-            "id": "VariableID:8f6290dfb47a12d0a80a2f0e0682a20e8134bde6/6283:2661"
-          }
-        },
-        "scopes": [
-          "EFFECT_COLOR"
         ],
         "codeSyntax": {}
       }
